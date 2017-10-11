@@ -1,0 +1,39 @@
+Arguments: 
+  /home/humble/.nvm/versions/node/v6.11.4/bin/node /usr/share/yarn/bin/yarn.js add express
+
+PATH: 
+  /home/humble/.nvm/versions/node/v6.11.4/bin:/home/humble/bin:/usr/local/bin:/home/humble/bin:/home/humble/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.1.0
+
+Node version: 
+  6.11.4
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "backend_server",
+    "version": "1.0.0",
+    "description": "This codes shall run as a server for students to test their frontend code",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Aakash Mallik",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com:443
+      at Object.exports._errnoException (util.js:1020:11)
+      at errnoException (dns.js:33:15)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)

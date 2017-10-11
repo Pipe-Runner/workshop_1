@@ -1,0 +1,16 @@
+{
+  "name": "backend_server",
+  "version": "1.0.0",
+  "description": "This codes shall run as a server for students to test their frontend code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aakash Mallik",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "cors": "^2.8.1",
+    "express": "~4.0.0"
+  }
+}
