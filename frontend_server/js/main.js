@@ -14,7 +14,7 @@ var sendRequest = function() {
 
   // Setup the request and preparing data
   //requestObject.open('POST', 'http://httpbin.org/post', true);
-  requestObject.open('POST', 'http://192.168.0.100:9000/testapiendpoint/post/', true);
+  requestObject.open('POST', 'http://127.0.0.1:8000/testapiendpoint/post/', true);
   requestObject.setRequestHeader('Content-Type', 'application/json');
 
   // Sending the request
